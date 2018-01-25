@@ -12,9 +12,9 @@ This repository contains **Dockerfile** for [xptMiner](https://github.com/dave-a
 
 1. Install [Docker](https://www.docker.com/).
 
-2. Download [automated build](https://hub.docker.com/r/rusa959/xpt-miner/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull rusa959/xpt-miner`
+2. Download [automated build](https://hub.docker.com/r/mubarakzyanov/xpt-miner/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull mubarakzyanov/xpt-miner`
 
-   (alternatively, you can build an image from Dockerfile: `docker build -t="rusa959/xpt-miner" github.com/mubarakzyanov/xpt-miner`)
+   (alternatively, you can build an image from Dockerfile: `docker build -t="mubarakzyanov/xpt-miner" github.com/mubarakzyanov/xpt-miner`)
 
 ### Usage
 
@@ -27,4 +27,4 @@ This repository contains **Dockerfile** for [xptMiner](https://github.com/dave-a
         --env POOL_PASSWORD=$PASSWORD \
         --env POOL_ADDRESS=$POOL_ADDRESS \
         --env THREAD_COUNT=$THREAD_COUNT \
-        private/riecoin-miner
+        mubarakzyanov/xpt-miner
